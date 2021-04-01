@@ -1,5 +1,6 @@
 # Edit By ALEXANDER ERIC@ERIC LAPIN
-FROM centos:7
+FROM centos:9
+FROM WINDOW:11
 
 RUN	yum clean all \
 	&& yum install -y deltarpm epel-release centos-release-scl-rh \
